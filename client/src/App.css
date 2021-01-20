@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Righteous&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.dashboard{
+    padding: 9rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 0;
+
+}
+.dashboard h1{
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Righteous', cursive;
+    color:#fafafa;
+}
+.dashboard h4{
+    color: #fafafa;
+}
+.bank_png{
+   position: absolute;
+   right: 9rem;
+   top: 4rem; 
+}
+.bank_png img{
+    height: 20rem;
+}
+.last_item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+}
+.history{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3rem;
+} 
+.ima > img{
+    padding: 0;
+     width: 15rem;
+     height: 10rem;
+     object-fit: contain; 
+     
+     align-items: center;
+     /* background-image: url('./images/photo.png'); */
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.history button{
+margin-top: 5px;
+margin-left: 0.5rem;
+width: 7rem;
+color: #ffffff !important;
+background:transparent;
+border: 1px solid rgba( 255, 255, 255, 0.1 ) !important;
+border-radius: 15px !important;
+}
+.history button:hover{
+  width: 7.5rem;
+  background: transparent !important;
+  border: 1px solid rgb(255, 255, 255) !important;
+}

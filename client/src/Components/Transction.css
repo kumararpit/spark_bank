@@ -1,0 +1,70 @@
+body{
+    background: #fc00ff; 
+background: -webkit-linear-gradient(to right, #00dbde, #fc00ff); 
+background: linear-gradient(to right, #00dbde, #fc00ff); 
+}
+.container{
+    width: 25vw !important;
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.navbar {
+    background: transparent !important;
+}
+.navbar-brand {
+    color: #ffffff !important;
+}
+.nav-link{
+    color: #ffffff !important;
+    opacity: 0.5;
+}
+.active,.nav-link:hover{
+    opacity: 1;
+}
+.nav-link:active{
+    color: #ffffff !important;
+}
+.container>h3{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 5px 0;
+    color: white !important;
+}
+.formclass{
+    margin: 1rem 0;
+}
+button{
+    margin-left: 6.5rem;
+    color: #ffffff !important;
+    background: wheat;
+    border: 1px solid rgba( 255, 255, 255, 0.1 ) !important;
+    border-radius: 15px !important;
+    /* margin-top: 10px; */
+    margin-bottom: 10px;
+}
+button:hover{
+    background: transparent !important;
+    border: 1px solid rgb(255, 255, 255) !important;
+  }
+select{
+    width: 100%;
+    outline: none;
+    border-radius: 25px;
+    padding: 5px;
+}
+label{
+    font-size:15px;
+    margin: 15px 0 0 5px;
+}
+select{
+    margin-top: 0;
+}
+input[type=text],[type=email],[type=number]{
+    border-radius: 25px !important;
+    margin-bottom: 5px;
+}
